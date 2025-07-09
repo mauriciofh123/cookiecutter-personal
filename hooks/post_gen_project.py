@@ -16,4 +16,4 @@ if os.path.exists(archivo_ejemplo):
 
 # Crear un README personalizado
 with open("README.md", "w") as f:
-    f.write(f"# {{ cookiecutter.project_name }}\n\nGenerado con Cookiecutter 🚀\n")
+    f.write(f"# {{ cookiecutter.project_title }}\n\nGenerado con Cookiecutter 🚀\n")
